@@ -63,10 +63,11 @@ header {
     gap: 50px;
     margin-left: auto;
 
-    &:hover, &:focus {color: $brand-color;}
-  }
- 
   
+  }
+  .nav__contact-item{
+  &:hover, &:focus {color: $brand-color;}
+  }
   .nav__contact-icon {
     fill: currentColor;
     align-self: center;
