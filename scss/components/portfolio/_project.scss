@@ -62,8 +62,8 @@
     transform: translateY(100%);
     transition: transform transition;
 
-    .project-link:hover&,
-    .project-link:focus&{    transform: translateX(0);
+    .project-link:hover &,
+    .project-link:focus &{    transform: translateX(0);
   }
   }
   
