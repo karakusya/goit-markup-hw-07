@@ -708,11 +708,9 @@ header {
   -webkit-transition: color transition timing-function, background-color transition timing-function;
   transition: color transition timing-function, background-color transition timing-function;
 }
-
-.soc-media__link:hover,
-.soc-media__link:focus {
-  color: white-color;
-  background-color: brand-color;
+.soc-media__link:hover, .soc-media__link:focus {
+  color: #fff;
+  background-color: #2196f3;
 }
 
 .soc-media__icon {

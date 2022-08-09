@@ -13,12 +13,11 @@
     color: icon-color;
     transition: color transition timing-function,
       background-color transition timing-function;
+
+      &:hover, &:focus {    color: $white-color;
+    background-color: $brand-color;}
   }
-  .soc-media__link:hover,
-  .soc-media__link:focus {
-    color: white-color;
-    background-color: brand-color;
-  }
+
   .soc-media__icon {
     fill: currentColor;
   }
