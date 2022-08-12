@@ -2,6 +2,11 @@
     background: $background;
     padding-top: 60px;
     padding-bottom: 60px;
+
+    &.soc-media__link {
+      color: $white-color;
+      background-color: $icon-background;
+    }
   }
   .footer__container {
     display: flex;
@@ -39,10 +44,7 @@
     line-height: 1.14;
     text-transform: uppercase;
   }
-  .footer .soc-media__link {
-    background-color: $icon-background;
-    color: $white-color;
-  }
+
   .footer__input {
     padding: 15px 16px;
     width: 358px;

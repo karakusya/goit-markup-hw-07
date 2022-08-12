@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+
+    &.soc-media__link {
+    
+      color: $icon-color;
+  
+    }
   }
   .soc-media__link {
     display: flex;
@@ -10,9 +16,9 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: icon-color;
-    transition: color transition timing-function,
-      background-color transition timing-function;
+  
+    transition: color $transition $timing-function,
+      background-color $transition $timing-function;
 
       &:hover, &:focus {    color: $white-color;
     background-color: $brand-color;}
